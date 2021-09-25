@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>CSS</title>
+		<style type="text/css">
+			#container{
+						border:3px solid black;
+						display:flex;
+						height:300px;
+						flex-flow:row wrap;
+					   }
+			div{
+					text-align:center;
+					padding:20px;
+					margin:10px;
+					height:30px;
+			    }
+			#firstdiv{
+						background-color:red;
+						order:2;
+					  }
+			#seconddev{
+						background-color:green;
+						order:-1;
+					   }
+			#thirddiv{
+						background-color:yellow;
+						order:3;
+					  }
+			#fourthdiv{background-color:purple;}
+			#fifthdiv{background-color:blue;}
+		</style>
+	</head>
+	<body>
+		<div id="container">
+			<div id="firstdiv">About Us</div>
+			<div id="seconddev">Home</div>
+			<div id="thirddiv">Contect Us</div>
+			<div id="fourthdiv">Tutorial</div>
+			<div id="fifthdiv">Video</div>
+		</div>
+	</body>
+</html>
